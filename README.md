@@ -1,37 +1,100 @@
-## Welcome to GitHub Pages
+<img src="https://raw.githubusercontent.com/hexojs/logo/master/hexo-logo-avatar.png" alt="Hexo logo" width="100" height="100" align="right" />
 
-You can use the [editor on GitHub](https://github.com/LiHua114/lihua114.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Hexo
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org).
 
-### Markdown
+[Website](https://hexo.io) |
+[Documentation](https://hexo.io/docs/) |
+[Installation Guide](https://hexo.io/docs/#Installation) |
+[Contribution Guide](https://hexo.io/docs/contributing) |
+[API](https://hexo.io/api/) |
+[Twitter](https://twitter.com/hexojs)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[![NPM version](https://badge.fury.io/js/hexo.svg)](https://www.npmjs.com/package/hexo)
+![Required Node version](https://img.shields.io/node/v/hexo)
+[![Build Status](https://travis-ci.com/hexojs/hexo.svg?branch=master)](https://travis-ci.com/hexojs/hexo)
+[![Build status](https://ci.appveyor.com/api/projects/status/github/hexojs/hexo?branch=master&svg=true)](https://ci.appveyor.com/project/tommy351/hexo/branch/master)
+[![dependencies Status](https://david-dm.org/hexojs/hexo/status.svg)](https://david-dm.org/hexojs/hexo)
+[![devDependencies Status](https://david-dm.org/hexojs/hexo/dev-status.svg)](https://david-dm.org/hexojs/hexo?type=dev)
+[![Coverage Status](https://coveralls.io/repos/hexojs/hexo/badge.svg?branch=master)](https://coveralls.io/r/hexojs/hexo?branch=master)
+[![Gitter](https://badges.gitter.im/hexojs/hexo.svg)](https://gitter.im/hexojs/hexo)
+[![Discord Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/teM2Anj)
+[![Telegram Chat](https://img.shields.io/badge/chat-on%20telegram-32afed.svg)](https://t.me/hexojs)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhexojs%2Fhexo.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhexojs%2Fhexo?ref=badge_shield)
 
-```markdown
-Syntax highlighted code block
+## Features
 
-# Header 1
-## Header 2
-### Header 3
+- Blazing fast generating
+- Support for GitHub Flavored Markdown and most Octopress plugins
+- One-command deploy to GitHub Pages, Heroku, etc.
+- Powerful API for limitless extensibility
+- Hundreds of [themes](https://hexo.io/themes/) & [plugins](https://hexo.io/plugins/)
 
-- Bulleted
-- List
+## Quick Start
 
-1. Numbered
-2. List
+**Install Hexo**
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+``` bash
+$ npm install hexo-cli -g
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Setup your blog**
 
-### Jekyll Themes
+``` bash
+$ hexo init blog
+$ cd blog
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LiHua114/lihua114.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Start the server**
 
-### Support or Contact
+``` bash
+$ hexo server
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Create a new post**
+
+``` bash
+$ hexo new "Hello Hexo"
+```
+
+**Generate static files**
+
+``` bash
+$ hexo generate
+```
+
+## More Information
+
+- Read the [documentation](https://hexo.io/)
+- Visit the [Awesome Hexo](https://github.com/hexojs/awesome-hexo) list
+- Find solutions in [troubleshooting](https://hexo.io/docs/troubleshooting.html)
+- Join discussion on [Google Group](https://groups.google.com/group/hexo), [Discord](https://discord.gg/teM2Anj), [Gitter](https://gitter.im/hexojs/hexo) or [Telegram](https://t.me/hexojs)
+- See the [plugin list](https://hexo.io/plugins/) and the [theme list](https://hexo.io/themes/) on wiki
+- Follow [@hexojs](https://twitter.com/hexojs) for latest news
+
+## Contributing
+
+We welcome you to join the development of Hexo. Please see [contributing document](https://hexo.io/docs/contributing). 🤗
+
+Also, we welcome PR or issue to [official-plugins](https://github.com/hexojs).
+
+## Contributors
+
+[![](https://opencollective.com/Hexo/contributors.svg?width=890)](https://github.com/hexojs/hexo/graphs/contributors)
+
+## Backers
+
+[![Backers](https://opencollective.com/hexo/tiers/backers.svg?avatarHeight=36&width=600)](https://opencollective.com/hexo)
+
+## Sponsors
+
+<a href="https://www.jetbrains.com/"><img src="/.github/jetbrains-variant-4.svg" alt="JetBrains" width="200"/></a>
+
+<a href="https://www.cmscritic.com/"><img src="/.github/CMS-Critic_logo-3.png" alt="CMS Critic" width="200"/></a>
+
+<a href="https://getform.io/"><img src="/.github/getform-logo.svg" alt="Getform" width="200"/></a>
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhexojs%2Fhexo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhexojs%2Fhexo?ref=badge_large)
